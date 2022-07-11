@@ -5,16 +5,21 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="resultados.html" method="post">
+    <form action="resultados.html" method="GET">
         <div> 
             <label for="username">Nombre de usario</label>
             <input name="username" id="username">
         </div>
         <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <div>
             <label for="password">Contraseña:</label>
             <input name="password" id="password" type="password">
         </div>
-        <button>Enviar</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
