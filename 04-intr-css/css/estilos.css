@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    color: blue;
+    font-size: 16pt;
+}
+
+/* Selectores de de id con #name */
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia {
+    /*color: blueviolet; */
+    font-size: 10pt;
+}
+
+/* Selectores de clase con .name */
+.encabezado {
+    font-size: 24pt;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+
+
+/* Selectores universales con * */
+* {
+    color: yellow;
+}
+
+/* Selector universal para clases *.name */
+*.warning {
+    color: red;
+    font-size: 34pt;
+}
