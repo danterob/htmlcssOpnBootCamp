@@ -8,15 +8,25 @@
     <form action="resultados.html" method="GET">
         <div> 
             <label for="username">Nombre de usario</label>
-            <input name="username" id="username">
+            <input name="username" id="username" required />
+        </div>
+        <br> 
+        <div>
+            <label for="password">Contraseña:</label>
+            <input name="password" id="password" type="password" required />
+        </div>
+        <br>
+        <div>
+            <label name="edad" for="edad">Cual es tu edad edad</label>
+            <input name="edad" id="edad" type="number" min="15" max="100" step="3">
+        </div>
+        <div>
+            <label name="nacimiento" for="nacimiento"> Cual es tu fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
         </div>
         <div>
             <label for="comentarios">Comentarios</label>
             <textarea name="comentarios" id="comentarios"></textarea>
-        </div>
-        <div>
-            <label for="password">Contraseña:</label>
-            <input name="password" id="password" type="password">
         </div>
         <button type="reset">Reset</button>
         <button type="submit">Enviar</button>
